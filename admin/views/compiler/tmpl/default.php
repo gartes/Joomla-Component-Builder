@@ -54,6 +54,9 @@
             if (isValid) {
                 jQuery('#form').hide();
 
+                
+                
+                
                 var form;
                 // get correct form based on task
                 if (task === 'compiler.compiler' || task === 'compiler.installCompiledPlugin') {
