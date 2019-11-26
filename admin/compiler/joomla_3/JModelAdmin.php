@@ -390,7 +390,7 @@ class ###Component###Model###View### extends JModelAdmin
 	 * @param   array  $data  The form data.
 	 *
 	 * @return  boolean  True on success.
-	 *
+	 * @throws Exception
 	 * @since   1.6
 	 */
 	public function save($data)
